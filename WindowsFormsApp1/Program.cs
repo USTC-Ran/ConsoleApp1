@@ -42,4 +42,22 @@ public class WinInOut : Form
         f.init();
         Application.Run(f);
     }
+
+    private void InitializeComponent()
+    {
+            this.SuspendLayout();
+            // 
+            // WinInOut
+            // 
+            this.ClientSize = new System.Drawing.Size(282, 253);
+            this.Name = "WinInOut";
+            this.Load += new System.EventHandler(this.WinInOut_Load);
+            this.ResumeLayout(false);
+
+    }
+
+    private void WinInOut_Load(object sender, EventArgs e)
+    {
+
+    }
 }
